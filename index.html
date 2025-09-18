@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Monitoring Dashboard (Demo)</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 16px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f4f4f4; }
+    .small { font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Monitoring Dashboard (Demo)</h1>
+  <p class="small">Data refresh setiap 5 detik. Ini demo — gunakan TLS & auth kuat di produksi.</p>
+
+  <table id="clientsTable">
+    <thead>
+      <tr><th>Client ID</th><th>User</th><th>Last Seen</th><th>CPU %</th><th>Mem Free (MB)</th><th>Uptime (s)</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
